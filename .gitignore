@@ -1,0 +1,27 @@
+# Gradle / Android
+.gradle/
+build/
+local.properties
+captures/
+.externalNativeBuild/
+.cxx/
+*.iml
+.idea/
+.DS_Store
+
+# Keystores and signing material must never be committed
+*.jks
+*.keystore
+keystore.properties
+signing.properties
+
+# Outputs
+*.apk
+*.aab
+*.log
+
+# Local tool/caches created while building in a sandbox
+.tools/
+.m2/
+.kotlin/
+.android/
